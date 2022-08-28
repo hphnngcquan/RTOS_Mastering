@@ -1,0 +1,28 @@
+23:49:36 **** Incremental Build of configuration Debug for project stm32_HelloWorld ****
+make -j8 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:12:0:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Finished building: ../src/main.c
+ 
+Building target: stm32_HelloWorld.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=rdimon.specs -lc -lrdimon -T"D:/New folder/RTOS_Mastering/stm32_HelloWorld/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "stm32_HelloWorld.elf" @"objects.list"   -lm
+Finished building target: stm32_HelloWorld.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "stm32_HelloWorld.elf" "stm32_HelloWorld.bin"
+arm-none-eabi-size "stm32_HelloWorld.elf"
+   text	   data	    bss	    dec	    hex	filename
+  19120	   2164	  78552	  99836	  185fc	stm32_HelloWorld.elf
+ 
+
+23:49:38 Build Finished (took 1s.434ms)
+

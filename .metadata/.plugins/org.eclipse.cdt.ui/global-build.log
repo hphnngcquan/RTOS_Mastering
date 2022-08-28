@@ -1,0 +1,1274 @@
+23:44:44 **** Clean-only build of configuration Debug for project stm32_HelloWorld ****
+make -j8 clean 
+rm -rf *
+ 
+23:44:44 **** Incremental Build of configuration Debug for project stm32_HelloWorld ****
+make -j8 all 
+Building file: ../thirdParty/FreeRTOS/org/Source/portable/MemMang/heap_4.c
+Building file: ../thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F/port.c
+Building file: ../thirdParty/FreeRTOS/org/Source/croutine.c
+Building file: ../thirdParty/FreeRTOS/org/Source/event_groups.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+Building file: ../thirdParty/FreeRTOS/org/Source/list.c
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"thirdParty/FreeRTOS/org/Source/portable/MemMang/heap_4.d" -MT"thirdParty/FreeRTOS/org/Source/portable/MemMang/heap_4.o" -o "thirdParty/FreeRTOS/org/Source/portable/MemMang/heap_4.o" "../thirdParty/FreeRTOS/org/Source/portable/MemMang/heap_4.c"
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F/port.d" -MT"thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F/port.o" -o "thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F/port.o" "../thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F/port.c"
+Invoking: MCU GCC Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"thirdParty/FreeRTOS/org/Source/croutine.d" -MT"thirdParty/FreeRTOS/org/Source/croutine.o" -o "thirdParty/FreeRTOS/org/Source/croutine.o" "../thirdParty/FreeRTOS/org/Source/croutine.c"
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"thirdParty/FreeRTOS/org/Source/event_groups.d" -MT"thirdParty/FreeRTOS/org/Source/event_groups.o" -o "thirdParty/FreeRTOS/org/Source/event_groups.o" "../thirdParty/FreeRTOS/org/Source/event_groups.c"
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+Building file: ../thirdParty/FreeRTOS/org/Source/queue.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"thirdParty/FreeRTOS/org/Source/list.d" -MT"thirdParty/FreeRTOS/org/Source/list.o" -o "thirdParty/FreeRTOS/org/Source/list.o" "../thirdParty/FreeRTOS/org/Source/list.c"
+Building file: ../thirdParty/FreeRTOS/org/Source/stream_buffer.c
+Building file: ../thirdParty/FreeRTOS/org/Source/tasks.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"thirdParty/FreeRTOS/org/Source/stream_buffer.d" -MT"thirdParty/FreeRTOS/org/Source/stream_buffer.o" -o "thirdParty/FreeRTOS/org/Source/stream_buffer.o" "../thirdParty/FreeRTOS/org/Source/stream_buffer.c"
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"thirdParty/FreeRTOS/org/Source/queue.d" -MT"thirdParty/FreeRTOS/org/Source/queue.o" -o "thirdParty/FreeRTOS/org/Source/queue.o" "../thirdParty/FreeRTOS/org/Source/queue.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"thirdParty/FreeRTOS/org/Source/tasks.d" -MT"thirdParty/FreeRTOS/org/Source/tasks.o" -o "thirdParty/FreeRTOS/org/Source/tasks.o" "../thirdParty/FreeRTOS/org/Source/tasks.c"
+Finished building: ../thirdParty/FreeRTOS/org/Source/croutine.c
+Finished building: ../thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F/port.c
+Finished building: ../thirdParty/FreeRTOS/org/Source/portable/MemMang/heap_4.c
+ 
+ 
+ 
+Finished building: ../thirdParty/FreeRTOS/org/Source/list.c
+Building file: ../thirdParty/FreeRTOS/org/Source/timers.c
+Building file: ../startup/startup_stm32.s
+Building file: ../src/main.c
+Finished building: ../thirdParty/FreeRTOS/org/Source/event_groups.c
+ 
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Assembler
+Invoking: MCU GCC Compiler
+ 
+Building file: ../src/system_stm32f4xx.c
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"thirdParty/FreeRTOS/org/Source/timers.d" -MT"thirdParty/FreeRTOS/org/Source/timers.o" -o "thirdParty/FreeRTOS/org/Source/timers.o" "../thirdParty/FreeRTOS/org/Source/timers.c"
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+Finished building: ../thirdParty/FreeRTOS/org/Source/stream_buffer.c
+arm-none-eabi-as -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -g -o "startup/startup_stm32.o" "../startup/startup_stm32.s"
+Invoking: MCU GCC Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+ 
+Building file: ../StdPeriph_Driver/src/misc.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/system_stm32f4xx.d" -MT"src/system_stm32f4xx.o" -o "src/system_stm32f4xx.o" "../src/system_stm32f4xx.c"
+Building file: ../StdPeriph_Driver/src/stm32f4xx_adc.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/misc.d" -MT"StdPeriph_Driver/src/misc.o" -o "StdPeriph_Driver/src/misc.o" "../StdPeriph_Driver/src/misc.c"
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+Finished building: ../thirdParty/FreeRTOS/org/Source/queue.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_adc.d" -MT"StdPeriph_Driver/src/stm32f4xx_adc.o" -o "StdPeriph_Driver/src/stm32f4xx_adc.o" "../StdPeriph_Driver/src/stm32f4xx_adc.c"
+ 
+Building file: ../StdPeriph_Driver/src/stm32f4xx_can.c
+Finished building: ../startup/startup_stm32.s
+Invoking: MCU GCC Compiler
+ 
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+Building file: ../StdPeriph_Driver/src/stm32f4xx_cec.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_can.d" -MT"StdPeriph_Driver/src/stm32f4xx_can.o" -o "StdPeriph_Driver/src/stm32f4xx_can.o" "../StdPeriph_Driver/src/stm32f4xx_can.c"
+Finished building: ../thirdParty/FreeRTOS/org/Source/tasks.c
+In file included from ../src/main.c:12:0:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Invoking: MCU GCC Compiler
+In file included from ../src/system_stm32f4xx.c:317:0:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+ 
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+Building file: ../StdPeriph_Driver/src/stm32f4xx_crc.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_cec.d" -MT"StdPeriph_Driver/src/stm32f4xx_cec.o" -o "StdPeriph_Driver/src/stm32f4xx_cec.o" "../StdPeriph_Driver/src/stm32f4xx_cec.c"
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/misc.h:38:0,
+                 from ../StdPeriph_Driver/src/misc.c:76:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+../src/system_stm32f4xx.c: In function 'SetSysClock':
+../src/system_stm32f4xx.c:760:5: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+     while ((RCC->CFGR & (uint32_t)RCC_CFGR_SWS ) != RCC_CFGR_SWS_PLL);
+     ^~~~~
+../src/system_stm32f4xx.c:761:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     {
+     ^
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_adc.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_adc.c:106:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_crc.d" -MT"StdPeriph_Driver/src/stm32f4xx_crc.o" -o "StdPeriph_Driver/src/stm32f4xx_crc.o" "../StdPeriph_Driver/src/stm32f4xx_crc.c"
+Finished building: ../thirdParty/FreeRTOS/org/Source/timers.c
+ 
+Building file: ../StdPeriph_Driver/src/stm32f4xx_cryp.c
+Invoking: MCU GCC Compiler
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_can.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_can.c:84:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_cec.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_cec.c:93:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_cryp.d" -MT"StdPeriph_Driver/src/stm32f4xx_cryp.o" -o "StdPeriph_Driver/src/stm32f4xx_cryp.o" "../StdPeriph_Driver/src/stm32f4xx_cryp.c"
+Finished building: ../src/main.c
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_crc.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_crc.c:29:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Finished building: ../StdPeriph_Driver/src/misc.c
+Finished building: ../src/system_stm32f4xx.c
+ 
+ 
+ 
+Building file: ../StdPeriph_Driver/src/stm32f4xx_cryp_aes.c
+Building file: ../StdPeriph_Driver/src/stm32f4xx_cryp_des.c
+Building file: ../StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_adc.c
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_cryp_aes.d" -MT"StdPeriph_Driver/src/stm32f4xx_cryp_aes.o" -o "StdPeriph_Driver/src/stm32f4xx_cryp_aes.o" "../StdPeriph_Driver/src/stm32f4xx_cryp_aes.c"
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_cryp_des.d" -MT"StdPeriph_Driver/src/stm32f4xx_cryp_des.o" -o "StdPeriph_Driver/src/stm32f4xx_cryp_des.o" "../StdPeriph_Driver/src/stm32f4xx_cryp_des.c"
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_cryp_tdes.d" -MT"StdPeriph_Driver/src/stm32f4xx_cryp_tdes.o" -o "StdPeriph_Driver/src/stm32f4xx_cryp_tdes.o" "../StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c"
+ 
+Building file: ../StdPeriph_Driver/src/stm32f4xx_dac.c
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_cryp.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_cryp.c:164:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_cec.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_can.c
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+ 
+ 
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_dac.d" -MT"StdPeriph_Driver/src/stm32f4xx_dac.o" -o "StdPeriph_Driver/src/stm32f4xx_dac.o" "../StdPeriph_Driver/src/stm32f4xx_dac.c"
+Building file: ../StdPeriph_Driver/src/stm32f4xx_dbgmcu.c
+Building file: ../StdPeriph_Driver/src/stm32f4xx_dcmi.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_crc.c
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_cryp.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_cryp_des.c:48:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_cryp.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c:48:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_dbgmcu.d" -MT"StdPeriph_Driver/src/stm32f4xx_dbgmcu.o" -o "StdPeriph_Driver/src/stm32f4xx_dbgmcu.o" "../StdPeriph_Driver/src/stm32f4xx_dbgmcu.c"
+ 
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_dcmi.d" -MT"StdPeriph_Driver/src/stm32f4xx_dcmi.o" -o "StdPeriph_Driver/src/stm32f4xx_dcmi.o" "../StdPeriph_Driver/src/stm32f4xx_dcmi.c"
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_cryp.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_cryp_aes.c:55:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Building file: ../StdPeriph_Driver/src/stm32f4xx_dfsdm.c
+Invoking: MCU GCC Compiler
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_dac.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_dac.c:131:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_dfsdm.d" -MT"StdPeriph_Driver/src/stm32f4xx_dfsdm.o" -o "StdPeriph_Driver/src/stm32f4xx_dfsdm.o" "../StdPeriph_Driver/src/stm32f4xx_dfsdm.c"
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_cryp.c
+ 
+Building file: ../StdPeriph_Driver/src/stm32f4xx_dma.c
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_dcmi.h:37:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_dcmi.c:86:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Invoking: MCU GCC Compiler
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_dbgmcu.h:37:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_dbgmcu.c:29:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_cryp_des.c
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_dma.d" -MT"StdPeriph_Driver/src/stm32f4xx_dma.o" -o "StdPeriph_Driver/src/stm32f4xx_dma.o" "../StdPeriph_Driver/src/stm32f4xx_dma.c"
+ 
+ 
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_rcc.h:37:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_dfsdm.c:44:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Building file: ../StdPeriph_Driver/src/stm32f4xx_dma2d.c
+Building file: ../StdPeriph_Driver/src/stm32f4xx_dsi.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_cryp_aes.c
+Invoking: MCU GCC Compiler
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_dac.c
+Invoking: MCU GCC Compiler
+ 
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_dma2d.d" -MT"StdPeriph_Driver/src/stm32f4xx_dma2d.o" -o "StdPeriph_Driver/src/stm32f4xx_dma2d.o" "../StdPeriph_Driver/src/stm32f4xx_dma2d.c"
+ 
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+Building file: ../StdPeriph_Driver/src/stm32f4xx_exti.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_dsi.d" -MT"StdPeriph_Driver/src/stm32f4xx_dsi.o" -o "StdPeriph_Driver/src/stm32f4xx_dsi.o" "../StdPeriph_Driver/src/stm32f4xx_dsi.c"
+Building file: ../StdPeriph_Driver/src/stm32f4xx_flash.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_dma.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_dma.c:124:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_exti.d" -MT"StdPeriph_Driver/src/stm32f4xx_exti.o" -o "StdPeriph_Driver/src/stm32f4xx_exti.o" "../StdPeriph_Driver/src/stm32f4xx_exti.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_flash.d" -MT"StdPeriph_Driver/src/stm32f4xx_flash.o" -o "StdPeriph_Driver/src/stm32f4xx_flash.o" "../StdPeriph_Driver/src/stm32f4xx_flash.c"
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_dcmi.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_dbgmcu.c
+ 
+ 
+Building file: ../StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_dfsdm.c
+Building file: ../StdPeriph_Driver/src/stm32f4xx_fmc.c
+Invoking: MCU GCC Compiler
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_dma2d.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_dma2d.c:58:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+ 
+Invoking: MCU GCC Compiler
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_dsi.h:37:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_dsi.c:44:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+Building file: ../StdPeriph_Driver/src/stm32f4xx_fmip2c.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.d" -MT"StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.o" -o "StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.o" "../StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c"
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_fmc.d" -MT"StdPeriph_Driver/src/stm32f4xx_fmc.o" -o "StdPeriph_Driver/src/stm32f4xx_fmc.o" "../StdPeriph_Driver/src/stm32f4xx_fmc.c"
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_exti.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_exti.c:68:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_fmip2c.d" -MT"StdPeriph_Driver/src/stm32f4xx_fmip2c.o" -o "StdPeriph_Driver/src/stm32f4xx_fmip2c.o" "../StdPeriph_Driver/src/stm32f4xx_fmip2c.c"
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_flash.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_flash.c:72:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_dma.c
+ 
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_flash_ramfunc.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c:58:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_fmc.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_fmc.c:36:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Building file: ../StdPeriph_Driver/src/stm32f4xx_fsmc.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_dma2d.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_dsi.c
+Invoking: MCU GCC Compiler
+ 
+ 
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_fmpi2c.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_fmip2c.c:79:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_exti.c
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_fsmc.d" -MT"StdPeriph_Driver/src/stm32f4xx_fsmc.o" -o "StdPeriph_Driver/src/stm32f4xx_fsmc.o" "../StdPeriph_Driver/src/stm32f4xx_fsmc.c"
+Building file: ../StdPeriph_Driver/src/stm32f4xx_gpio.c
+ 
+Building file: ../StdPeriph_Driver/src/stm32f4xx_hash.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_gpio.d" -MT"StdPeriph_Driver/src/stm32f4xx_gpio.o" -o "StdPeriph_Driver/src/stm32f4xx_gpio.o" "../StdPeriph_Driver/src/stm32f4xx_gpio.c"
+Building file: ../StdPeriph_Driver/src/stm32f4xx_hash_md5.c
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_flash.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_hash.d" -MT"StdPeriph_Driver/src/stm32f4xx_hash.o" -o "StdPeriph_Driver/src/stm32f4xx_hash.o" "../StdPeriph_Driver/src/stm32f4xx_hash.c"
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+ 
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_hash_md5.d" -MT"StdPeriph_Driver/src/stm32f4xx_hash_md5.o" -o "StdPeriph_Driver/src/stm32f4xx_hash_md5.o" "../StdPeriph_Driver/src/stm32f4xx_hash_md5.c"
+Building file: ../StdPeriph_Driver/src/stm32f4xx_hash_sha1.c
+Invoking: MCU GCC Compiler
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_fmc.c
+ 
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_fsmc.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_fsmc.c:35:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_hash_sha1.d" -MT"StdPeriph_Driver/src/stm32f4xx_hash_sha1.o" -o "StdPeriph_Driver/src/stm32f4xx_hash_sha1.o" "../StdPeriph_Driver/src/stm32f4xx_hash_sha1.c"
+Building file: ../StdPeriph_Driver/src/stm32f4xx_i2c.c
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_gpio.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_gpio.c:84:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+ 
+Invoking: MCU GCC Compiler
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_fmip2c.c
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_hash.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_hash.c:123:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Building file: ../StdPeriph_Driver/src/stm32f4xx_iwdg.c
+ 
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_i2c.d" -MT"StdPeriph_Driver/src/stm32f4xx_i2c.o" -o "StdPeriph_Driver/src/stm32f4xx_i2c.o" "../StdPeriph_Driver/src/stm32f4xx_i2c.c"
+Building file: ../StdPeriph_Driver/src/stm32f4xx_lptim.c
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_iwdg.d" -MT"StdPeriph_Driver/src/stm32f4xx_iwdg.o" -o "StdPeriph_Driver/src/stm32f4xx_iwdg.o" "../StdPeriph_Driver/src/stm32f4xx_iwdg.c"
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_hash.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_hash_md5.c:47:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_lptim.d" -MT"StdPeriph_Driver/src/stm32f4xx_lptim.o" -o "StdPeriph_Driver/src/stm32f4xx_lptim.o" "../StdPeriph_Driver/src/stm32f4xx_lptim.c"
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_hash.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_hash_sha1.c:47:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_i2c.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_i2c.c:92:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_iwdg.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_iwdg.c:85:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_fsmc.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_gpio.c
+ 
+ 
+Building file: ../StdPeriph_Driver/src/stm32f4xx_ltdc.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_hash.c
+Building file: ../StdPeriph_Driver/src/stm32f4xx_pwr.c
+Invoking: MCU GCC Compiler
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_hash_md5.c
+ 
+Invoking: MCU GCC Compiler
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_lptim.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_lptim.c:96:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+ 
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_ltdc.d" -MT"StdPeriph_Driver/src/stm32f4xx_ltdc.o" -o "StdPeriph_Driver/src/stm32f4xx_ltdc.o" "../StdPeriph_Driver/src/stm32f4xx_ltdc.c"
+Building file: ../StdPeriph_Driver/src/stm32f4xx_qspi.c
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+Building file: ../StdPeriph_Driver/src/stm32f4xx_rcc.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_pwr.d" -MT"StdPeriph_Driver/src/stm32f4xx_pwr.o" -o "StdPeriph_Driver/src/stm32f4xx_pwr.o" "../StdPeriph_Driver/src/stm32f4xx_pwr.c"
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+Invoking: MCU GCC Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_qspi.d" -MT"StdPeriph_Driver/src/stm32f4xx_qspi.o" -o "StdPeriph_Driver/src/stm32f4xx_qspi.o" "../StdPeriph_Driver/src/stm32f4xx_qspi.c"
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_rcc.d" -MT"StdPeriph_Driver/src/stm32f4xx_rcc.o" -o "StdPeriph_Driver/src/stm32f4xx_rcc.o" "../StdPeriph_Driver/src/stm32f4xx_rcc.c"
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_hash_sha1.c
+ 
+Building file: ../StdPeriph_Driver/src/stm32f4xx_rng.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_iwdg.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_i2c.c
+ 
+Invoking: MCU GCC Compiler
+ 
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_ltdc.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_ltdc.c:76:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_pwr.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_pwr.c:38:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+Building file: ../StdPeriph_Driver/src/stm32f4xx_rtc.c
+Building file: ../StdPeriph_Driver/src/stm32f4xx_sai.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_rng.d" -MT"StdPeriph_Driver/src/stm32f4xx_rng.o" -o "StdPeriph_Driver/src/stm32f4xx_rng.o" "../StdPeriph_Driver/src/stm32f4xx_rng.c"
+Invoking: MCU GCC Compiler
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_qspi.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_qspi.c:82:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Invoking: MCU GCC Compiler
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_rcc.h:37:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_rcc.c:59:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_lptim.c
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_sai.d" -MT"StdPeriph_Driver/src/stm32f4xx_sai.o" -o "StdPeriph_Driver/src/stm32f4xx_sai.o" "../StdPeriph_Driver/src/stm32f4xx_sai.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_rtc.d" -MT"StdPeriph_Driver/src/stm32f4xx_rtc.o" -o "StdPeriph_Driver/src/stm32f4xx_rtc.o" "../StdPeriph_Driver/src/stm32f4xx_rtc.c"
+ 
+Building file: ../StdPeriph_Driver/src/stm32f4xx_sdio.c
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_rng.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_rng.c:56:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_sdio.d" -MT"StdPeriph_Driver/src/stm32f4xx_sdio.o" -o "StdPeriph_Driver/src/stm32f4xx_sdio.o" "../StdPeriph_Driver/src/stm32f4xx_sdio.c"
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_sai.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_sai.c:126:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_rtc.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_rtc.c:285:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_pwr.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_ltdc.c
+ 
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_qspi.c
+ 
+Building file: ../StdPeriph_Driver/src/stm32f4xx_spdifrx.c
+ 
+Building file: ../StdPeriph_Driver/src/stm32f4xx_spi.c
+Invoking: MCU GCC Compiler
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_rcc.c
+Building file: ../StdPeriph_Driver/src/stm32f4xx_syscfg.c
+Invoking: MCU GCC Compiler
+ 
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_spi.d" -MT"StdPeriph_Driver/src/stm32f4xx_spi.o" -o "StdPeriph_Driver/src/stm32f4xx_spi.o" "../StdPeriph_Driver/src/stm32f4xx_spi.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_spdifrx.d" -MT"StdPeriph_Driver/src/stm32f4xx_spdifrx.o" -o "StdPeriph_Driver/src/stm32f4xx_spdifrx.o" "../StdPeriph_Driver/src/stm32f4xx_spdifrx.c"
+Invoking: MCU GCC Compiler
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_sdio.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_sdio.c:156:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Building file: ../StdPeriph_Driver/src/stm32f4xx_tim.c
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+Invoking: MCU GCC Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_syscfg.d" -MT"StdPeriph_Driver/src/stm32f4xx_syscfg.o" -o "StdPeriph_Driver/src/stm32f4xx_syscfg.o" "../StdPeriph_Driver/src/stm32f4xx_syscfg.c"
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_rng.c
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_tim.d" -MT"StdPeriph_Driver/src/stm32f4xx_tim.o" -o "StdPeriph_Driver/src/stm32f4xx_tim.o" "../StdPeriph_Driver/src/stm32f4xx_tim.c"
+ 
+Building file: ../StdPeriph_Driver/src/stm32f4xx_usart.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_sai.c
+ 
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+Building file: ../StdPeriph_Driver/src/stm32f4xx_wwdg.c
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_spdifrx.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_spdifrx.c:34:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_spi.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_spi.c:159:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_usart.d" -MT"StdPeriph_Driver/src/stm32f4xx_usart.o" -o "StdPeriph_Driver/src/stm32f4xx_usart.o" "../StdPeriph_Driver/src/stm32f4xx_usart.c"
+Invoking: MCU GCC Compiler
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_rtc.c
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_syscfg.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_syscfg.c:50:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+ 
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_wwdg.d" -MT"StdPeriph_Driver/src/stm32f4xx_wwdg.o" -o "StdPeriph_Driver/src/stm32f4xx_wwdg.o" "../StdPeriph_Driver/src/stm32f4xx_wwdg.c"
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_tim.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_tim.c:119:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_sdio.c
+ 
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_usart.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_usart.c:92:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_spdifrx.c
+ 
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_wwdg.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_wwdg.c:84:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_spi.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_syscfg.c
+ 
+ 
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_tim.c
+ 
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_usart.c
+ 
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_wwdg.c
+ 
+Building target: stm32_HelloWorld.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=rdimon.specs -lc -lrdimon -T"D:/New folder/RTOS_Mastering/stm32_HelloWorld/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "stm32_HelloWorld.elf" @"objects.list"   -lm
+Finished building target: stm32_HelloWorld.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "stm32_HelloWorld.elf" "stm32_HelloWorld.bin"
+arm-none-eabi-size "stm32_HelloWorld.elf"
+   text	   data	    bss	    dec	    hex	filename
+  19120	   2164	  78552	  99836	  185fc	stm32_HelloWorld.elf
+ 
+23:45:01 **** Incremental Build of configuration Debug for project stm32_HelloWorld ****
+make -j8 all 
+make: Nothing to be done for 'all'.
+23:47:48 **** Clean-only build of configuration Debug for project stm32_HelloWorld ****
+make -j8 clean 
+rm -rf *
+ 
+23:47:48 **** Incremental Build of configuration Debug for project stm32_HelloWorld ****
+make -j8 all 
+Building file: ../thirdParty/FreeRTOS/org/Source/portable/MemMang/heap_4.c
+Building file: ../thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F/port.c
+Building file: ../thirdParty/FreeRTOS/org/Source/croutine.c
+Building file: ../thirdParty/FreeRTOS/org/Source/event_groups.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+Building file: ../thirdParty/FreeRTOS/org/Source/list.c
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"thirdParty/FreeRTOS/org/Source/portable/MemMang/heap_4.d" -MT"thirdParty/FreeRTOS/org/Source/portable/MemMang/heap_4.o" -o "thirdParty/FreeRTOS/org/Source/portable/MemMang/heap_4.o" "../thirdParty/FreeRTOS/org/Source/portable/MemMang/heap_4.c"
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F/port.d" -MT"thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F/port.o" -o "thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F/port.o" "../thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F/port.c"
+Invoking: MCU GCC Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"thirdParty/FreeRTOS/org/Source/croutine.d" -MT"thirdParty/FreeRTOS/org/Source/croutine.o" -o "thirdParty/FreeRTOS/org/Source/croutine.o" "../thirdParty/FreeRTOS/org/Source/croutine.c"
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"thirdParty/FreeRTOS/org/Source/event_groups.d" -MT"thirdParty/FreeRTOS/org/Source/event_groups.o" -o "thirdParty/FreeRTOS/org/Source/event_groups.o" "../thirdParty/FreeRTOS/org/Source/event_groups.c"
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+Building file: ../thirdParty/FreeRTOS/org/Source/queue.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"thirdParty/FreeRTOS/org/Source/list.d" -MT"thirdParty/FreeRTOS/org/Source/list.o" -o "thirdParty/FreeRTOS/org/Source/list.o" "../thirdParty/FreeRTOS/org/Source/list.c"
+Building file: ../thirdParty/FreeRTOS/org/Source/stream_buffer.c
+Building file: ../thirdParty/FreeRTOS/org/Source/tasks.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"thirdParty/FreeRTOS/org/Source/stream_buffer.d" -MT"thirdParty/FreeRTOS/org/Source/stream_buffer.o" -o "thirdParty/FreeRTOS/org/Source/stream_buffer.o" "../thirdParty/FreeRTOS/org/Source/stream_buffer.c"
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"thirdParty/FreeRTOS/org/Source/queue.d" -MT"thirdParty/FreeRTOS/org/Source/queue.o" -o "thirdParty/FreeRTOS/org/Source/queue.o" "../thirdParty/FreeRTOS/org/Source/queue.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"thirdParty/FreeRTOS/org/Source/tasks.d" -MT"thirdParty/FreeRTOS/org/Source/tasks.o" -o "thirdParty/FreeRTOS/org/Source/tasks.o" "../thirdParty/FreeRTOS/org/Source/tasks.c"
+Finished building: ../thirdParty/FreeRTOS/org/Source/event_groups.c
+Finished building: ../thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F/port.c
+Finished building: ../thirdParty/FreeRTOS/org/Source/portable/MemMang/heap_4.c
+Finished building: ../thirdParty/FreeRTOS/org/Source/croutine.c
+Finished building: ../thirdParty/FreeRTOS/org/Source/list.c
+ 
+ 
+ 
+ 
+ 
+Building file: ../thirdParty/FreeRTOS/org/Source/timers.c
+Building file: ../startup/startup_stm32.s
+Building file: ../src/main.c
+Building file: ../src/system_stm32f4xx.c
+Invoking: MCU GCC Compiler
+Building file: ../StdPeriph_Driver/src/misc.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Assembler
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"thirdParty/FreeRTOS/org/Source/timers.d" -MT"thirdParty/FreeRTOS/org/Source/timers.o" -o "thirdParty/FreeRTOS/org/Source/timers.o" "../thirdParty/FreeRTOS/org/Source/timers.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-as -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -g -o "startup/startup_stm32.o" "../startup/startup_stm32.s"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/system_stm32f4xx.d" -MT"src/system_stm32f4xx.o" -o "src/system_stm32f4xx.o" "../src/system_stm32f4xx.c"
+Finished building: ../thirdParty/FreeRTOS/org/Source/stream_buffer.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/misc.d" -MT"StdPeriph_Driver/src/misc.o" -o "StdPeriph_Driver/src/misc.o" "../StdPeriph_Driver/src/misc.c"
+Finished building: ../thirdParty/FreeRTOS/org/Source/queue.c
+ 
+Building file: ../StdPeriph_Driver/src/stm32f4xx_adc.c
+ 
+Building file: ../StdPeriph_Driver/src/stm32f4xx_can.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+In file included from ../src/main.c:12:0:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_adc.d" -MT"StdPeriph_Driver/src/stm32f4xx_adc.o" -o "StdPeriph_Driver/src/stm32f4xx_adc.o" "../StdPeriph_Driver/src/stm32f4xx_adc.c"
+Finished building: ../startup/startup_stm32.s
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+Finished building: ../thirdParty/FreeRTOS/org/Source/tasks.c
+ 
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_can.d" -MT"StdPeriph_Driver/src/stm32f4xx_can.o" -o "StdPeriph_Driver/src/stm32f4xx_can.o" "../StdPeriph_Driver/src/stm32f4xx_can.c"
+In file included from ../src/system_stm32f4xx.c:317:0:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Building file: ../StdPeriph_Driver/src/stm32f4xx_cec.c
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/misc.h:38:0,
+                 from ../StdPeriph_Driver/src/misc.c:76:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+ 
+Invoking: MCU GCC Compiler
+../src/system_stm32f4xx.c: In function 'SetSysClock':
+../src/system_stm32f4xx.c:760:5: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+     while ((RCC->CFGR & (uint32_t)RCC_CFGR_SWS ) != RCC_CFGR_SWS_PLL);
+     ^~~~~
+../src/system_stm32f4xx.c:761:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     {
+     ^
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+Building file: ../StdPeriph_Driver/src/stm32f4xx_crc.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_cec.d" -MT"StdPeriph_Driver/src/stm32f4xx_cec.o" -o "StdPeriph_Driver/src/stm32f4xx_cec.o" "../StdPeriph_Driver/src/stm32f4xx_cec.c"
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_crc.d" -MT"StdPeriph_Driver/src/stm32f4xx_crc.o" -o "StdPeriph_Driver/src/stm32f4xx_crc.o" "../StdPeriph_Driver/src/stm32f4xx_crc.c"
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_adc.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_adc.c:106:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Finished building: ../thirdParty/FreeRTOS/org/Source/timers.c
+ 
+Finished building: ../src/main.c
+Building file: ../StdPeriph_Driver/src/stm32f4xx_cryp.c
+Invoking: MCU GCC Compiler
+ 
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_cec.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_cec.c:93:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Finished building: ../src/system_stm32f4xx.c
+Building file: ../StdPeriph_Driver/src/stm32f4xx_cryp_aes.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_cryp.d" -MT"StdPeriph_Driver/src/stm32f4xx_cryp.o" -o "StdPeriph_Driver/src/stm32f4xx_cryp.o" "../StdPeriph_Driver/src/stm32f4xx_cryp.c"
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_can.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_can.c:84:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Finished building: ../StdPeriph_Driver/src/misc.c
+ 
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_crc.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_crc.c:29:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Invoking: MCU GCC Compiler
+Building file: ../StdPeriph_Driver/src/stm32f4xx_cryp_des.c
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+ 
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_cryp_aes.d" -MT"StdPeriph_Driver/src/stm32f4xx_cryp_aes.o" -o "StdPeriph_Driver/src/stm32f4xx_cryp_aes.o" "../StdPeriph_Driver/src/stm32f4xx_cryp_aes.c"
+Invoking: MCU GCC Compiler
+Building file: ../StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_cryp_des.d" -MT"StdPeriph_Driver/src/stm32f4xx_cryp_des.o" -o "StdPeriph_Driver/src/stm32f4xx_cryp_des.o" "../StdPeriph_Driver/src/stm32f4xx_cryp_des.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_cryp_tdes.d" -MT"StdPeriph_Driver/src/stm32f4xx_cryp_tdes.o" -o "StdPeriph_Driver/src/stm32f4xx_cryp_tdes.o" "../StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c"
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_adc.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_cec.c
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_cryp.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_cryp.c:164:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+ 
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_cryp.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_cryp_aes.c:55:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+ 
+Building file: ../StdPeriph_Driver/src/stm32f4xx_dac.c
+Building file: ../StdPeriph_Driver/src/stm32f4xx_dbgmcu.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_crc.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_can.c
+Invoking: MCU GCC Compiler
+ 
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+ 
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_dac.d" -MT"StdPeriph_Driver/src/stm32f4xx_dac.o" -o "StdPeriph_Driver/src/stm32f4xx_dac.o" "../StdPeriph_Driver/src/stm32f4xx_dac.c"
+Building file: ../StdPeriph_Driver/src/stm32f4xx_dcmi.c
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+Building file: ../StdPeriph_Driver/src/stm32f4xx_dfsdm.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_dbgmcu.d" -MT"StdPeriph_Driver/src/stm32f4xx_dbgmcu.o" -o "StdPeriph_Driver/src/stm32f4xx_dbgmcu.o" "../StdPeriph_Driver/src/stm32f4xx_dbgmcu.c"
+Invoking: MCU GCC Compiler
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_cryp.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c:48:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Invoking: MCU GCC Compiler
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_cryp.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_cryp_des.c:48:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+<command-line>:0:0: note: this is the location of the previous definition
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_dcmi.d" -MT"StdPeriph_Driver/src/stm32f4xx_dcmi.o" -o "StdPeriph_Driver/src/stm32f4xx_dcmi.o" "../StdPeriph_Driver/src/stm32f4xx_dcmi.c"
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_dfsdm.d" -MT"StdPeriph_Driver/src/stm32f4xx_dfsdm.o" -o "StdPeriph_Driver/src/stm32f4xx_dfsdm.o" "../StdPeriph_Driver/src/stm32f4xx_dfsdm.c"
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_cryp.c
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_dac.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_dac.c:131:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_dbgmcu.h:37:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_dbgmcu.c:29:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+ 
+Building file: ../StdPeriph_Driver/src/stm32f4xx_dma.c
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_dcmi.h:37:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_dcmi.c:86:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Invoking: MCU GCC Compiler
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_rcc.h:37:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_dfsdm.c:44:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_dma.d" -MT"StdPeriph_Driver/src/stm32f4xx_dma.o" -o "StdPeriph_Driver/src/stm32f4xx_dma.o" "../StdPeriph_Driver/src/stm32f4xx_dma.c"
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_cryp_aes.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_cryp_des.c
+ 
+ 
+ 
+Building file: ../StdPeriph_Driver/src/stm32f4xx_dma2d.c
+Building file: ../StdPeriph_Driver/src/stm32f4xx_dsi.c
+Invoking: MCU GCC Compiler
+Building file: ../StdPeriph_Driver/src/stm32f4xx_exti.c
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+Invoking: MCU GCC Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_dma2d.d" -MT"StdPeriph_Driver/src/stm32f4xx_dma2d.o" -o "StdPeriph_Driver/src/stm32f4xx_dma2d.o" "../StdPeriph_Driver/src/stm32f4xx_dma2d.c"
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_dsi.d" -MT"StdPeriph_Driver/src/stm32f4xx_dsi.o" -o "StdPeriph_Driver/src/stm32f4xx_dsi.o" "../StdPeriph_Driver/src/stm32f4xx_dsi.c"
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_dac.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_dbgmcu.c
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_exti.d" -MT"StdPeriph_Driver/src/stm32f4xx_exti.o" -o "StdPeriph_Driver/src/stm32f4xx_exti.o" "../StdPeriph_Driver/src/stm32f4xx_exti.c"
+ 
+ 
+Building file: ../StdPeriph_Driver/src/stm32f4xx_flash.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_dcmi.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_dfsdm.c
+Building file: ../StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_dma.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_dma.c:124:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Invoking: MCU GCC Compiler
+ 
+ 
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+Building file: ../StdPeriph_Driver/src/stm32f4xx_fmc.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_flash.d" -MT"StdPeriph_Driver/src/stm32f4xx_flash.o" -o "StdPeriph_Driver/src/stm32f4xx_flash.o" "../StdPeriph_Driver/src/stm32f4xx_flash.c"
+Building file: ../StdPeriph_Driver/src/stm32f4xx_fmip2c.c
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.d" -MT"StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.o" -o "StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.o" "../StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c"
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_dsi.h:37:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_dsi.c:44:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_dma2d.h:38:0,
+Invoking: MCU GCC Compiler
+                 from ../StdPeriph_Driver/src/stm32f4xx_dma2d.c:58:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_fmc.d" -MT"StdPeriph_Driver/src/stm32f4xx_fmc.o" -o "StdPeriph_Driver/src/stm32f4xx_fmc.o" "../StdPeriph_Driver/src/stm32f4xx_fmc.c"
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_exti.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_exti.c:68:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_fmip2c.d" -MT"StdPeriph_Driver/src/stm32f4xx_fmip2c.o" -o "StdPeriph_Driver/src/stm32f4xx_fmip2c.o" "../StdPeriph_Driver/src/stm32f4xx_fmip2c.c"
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_flash.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_flash.c:72:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_flash_ramfunc.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c:58:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_dma.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_dsi.c
+ 
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_fmpi2c.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_fmip2c.c:79:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_fmc.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_fmc.c:36:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+ 
+Building file: ../StdPeriph_Driver/src/stm32f4xx_fsmc.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_dma2d.c
+Building file: ../StdPeriph_Driver/src/stm32f4xx_gpio.c
+ 
+Invoking: MCU GCC Compiler
+Building file: ../StdPeriph_Driver/src/stm32f4xx_hash.c
+Invoking: MCU GCC Compiler
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_exti.c
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_fsmc.d" -MT"StdPeriph_Driver/src/stm32f4xx_fsmc.o" -o "StdPeriph_Driver/src/stm32f4xx_fsmc.o" "../StdPeriph_Driver/src/stm32f4xx_fsmc.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_gpio.d" -MT"StdPeriph_Driver/src/stm32f4xx_gpio.o" -o "StdPeriph_Driver/src/stm32f4xx_gpio.o" "../StdPeriph_Driver/src/stm32f4xx_gpio.c"
+Invoking: MCU GCC Compiler
+ 
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+Building file: ../StdPeriph_Driver/src/stm32f4xx_hash_md5.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_hash.d" -MT"StdPeriph_Driver/src/stm32f4xx_hash.o" -o "StdPeriph_Driver/src/stm32f4xx_hash.o" "../StdPeriph_Driver/src/stm32f4xx_hash.c"
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_hash_md5.d" -MT"StdPeriph_Driver/src/stm32f4xx_hash_md5.o" -o "StdPeriph_Driver/src/stm32f4xx_hash_md5.o" "../StdPeriph_Driver/src/stm32f4xx_hash_md5.c"
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_flash.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c
+ 
+ 
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_fmip2c.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_fmc.c
+Building file: ../StdPeriph_Driver/src/stm32f4xx_hash_sha1.c
+ 
+ 
+Invoking: MCU GCC Compiler
+Building file: ../StdPeriph_Driver/src/stm32f4xx_i2c.c
+Building file: ../StdPeriph_Driver/src/stm32f4xx_lptim.c
+Building file: ../StdPeriph_Driver/src/stm32f4xx_iwdg.c
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_hash.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_hash.c:123:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_fsmc.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_fsmc.c:35:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_gpio.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_gpio.c:84:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Invoking: MCU GCC Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_hash_sha1.d" -MT"StdPeriph_Driver/src/stm32f4xx_hash_sha1.o" -o "StdPeriph_Driver/src/stm32f4xx_hash_sha1.o" "../StdPeriph_Driver/src/stm32f4xx_hash_sha1.c"
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_i2c.d" -MT"StdPeriph_Driver/src/stm32f4xx_i2c.o" -o "StdPeriph_Driver/src/stm32f4xx_i2c.o" "../StdPeriph_Driver/src/stm32f4xx_i2c.c"
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_hash.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_hash_md5.c:47:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_iwdg.d" -MT"StdPeriph_Driver/src/stm32f4xx_iwdg.o" -o "StdPeriph_Driver/src/stm32f4xx_iwdg.o" "../StdPeriph_Driver/src/stm32f4xx_iwdg.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_lptim.d" -MT"StdPeriph_Driver/src/stm32f4xx_lptim.o" -o "StdPeriph_Driver/src/stm32f4xx_lptim.o" "../StdPeriph_Driver/src/stm32f4xx_lptim.c"
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_hash.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_hash_sha1.c:47:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_i2c.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_i2c.c:92:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_iwdg.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_iwdg.c:85:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_fsmc.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_gpio.c
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_lptim.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_lptim.c:96:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_hash.c
+ 
+ 
+ 
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_hash_md5.c
+Building file: ../StdPeriph_Driver/src/stm32f4xx_ltdc.c
+ 
+Building file: ../StdPeriph_Driver/src/stm32f4xx_pwr.c
+Building file: ../StdPeriph_Driver/src/stm32f4xx_qspi.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+Building file: ../StdPeriph_Driver/src/stm32f4xx_rcc.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_ltdc.d" -MT"StdPeriph_Driver/src/stm32f4xx_ltdc.o" -o "StdPeriph_Driver/src/stm32f4xx_ltdc.o" "../StdPeriph_Driver/src/stm32f4xx_ltdc.c"
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+Invoking: MCU GCC Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_pwr.d" -MT"StdPeriph_Driver/src/stm32f4xx_pwr.o" -o "StdPeriph_Driver/src/stm32f4xx_pwr.o" "../StdPeriph_Driver/src/stm32f4xx_pwr.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_qspi.d" -MT"StdPeriph_Driver/src/stm32f4xx_qspi.o" -o "StdPeriph_Driver/src/stm32f4xx_qspi.o" "../StdPeriph_Driver/src/stm32f4xx_qspi.c"
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_rcc.d" -MT"StdPeriph_Driver/src/stm32f4xx_rcc.o" -o "StdPeriph_Driver/src/stm32f4xx_rcc.o" "../StdPeriph_Driver/src/stm32f4xx_rcc.c"
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_hash_sha1.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_lptim.c
+ 
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_iwdg.c
+ 
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_i2c.c
+ 
+Building file: ../StdPeriph_Driver/src/stm32f4xx_rng.c
+ 
+Building file: ../StdPeriph_Driver/src/stm32f4xx_rtc.c
+Building file: ../StdPeriph_Driver/src/stm32f4xx_sai.c
+Invoking: MCU GCC Compiler
+Building file: ../StdPeriph_Driver/src/stm32f4xx_sdio.c
+Invoking: MCU GCC Compiler
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_ltdc.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_ltdc.c:76:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_qspi.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_qspi.c:82:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_rng.d" -MT"StdPeriph_Driver/src/stm32f4xx_rng.o" -o "StdPeriph_Driver/src/stm32f4xx_rng.o" "../StdPeriph_Driver/src/stm32f4xx_rng.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_sai.d" -MT"StdPeriph_Driver/src/stm32f4xx_sai.o" -o "StdPeriph_Driver/src/stm32f4xx_sai.o" "../StdPeriph_Driver/src/stm32f4xx_sai.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_rtc.d" -MT"StdPeriph_Driver/src/stm32f4xx_rtc.o" -o "StdPeriph_Driver/src/stm32f4xx_rtc.o" "../StdPeriph_Driver/src/stm32f4xx_rtc.c"
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_pwr.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_pwr.c:38:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_rcc.h:37:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_rcc.c:59:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_sdio.d" -MT"StdPeriph_Driver/src/stm32f4xx_sdio.o" -o "StdPeriph_Driver/src/stm32f4xx_sdio.o" "../StdPeriph_Driver/src/stm32f4xx_sdio.c"
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_rng.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_rng.c:56:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_rtc.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_rtc.c:285:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_sai.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_sai.c:126:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_sdio.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_sdio.c:156:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_pwr.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_qspi.c
+ 
+ 
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_ltdc.c
+Building file: ../StdPeriph_Driver/src/stm32f4xx_spdifrx.c
+Building file: ../StdPeriph_Driver/src/stm32f4xx_spi.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_rcc.c
+ 
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+ 
+Building file: ../StdPeriph_Driver/src/stm32f4xx_syscfg.c
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+Building file: ../StdPeriph_Driver/src/stm32f4xx_tim.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_spdifrx.d" -MT"StdPeriph_Driver/src/stm32f4xx_spdifrx.o" -o "StdPeriph_Driver/src/stm32f4xx_spdifrx.o" "../StdPeriph_Driver/src/stm32f4xx_spdifrx.c"
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+Invoking: MCU GCC Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_spi.d" -MT"StdPeriph_Driver/src/stm32f4xx_spi.o" -o "StdPeriph_Driver/src/stm32f4xx_spi.o" "../StdPeriph_Driver/src/stm32f4xx_spi.c"
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_syscfg.d" -MT"StdPeriph_Driver/src/stm32f4xx_syscfg.o" -o "StdPeriph_Driver/src/stm32f4xx_syscfg.o" "../StdPeriph_Driver/src/stm32f4xx_syscfg.c"
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_rng.c
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_tim.d" -MT"StdPeriph_Driver/src/stm32f4xx_tim.o" -o "StdPeriph_Driver/src/stm32f4xx_tim.o" "../StdPeriph_Driver/src/stm32f4xx_tim.c"
+ 
+Building file: ../StdPeriph_Driver/src/stm32f4xx_usart.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_sai.c
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_sdio.c
+Invoking: MCU GCC Compiler
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_rtc.c
+ 
+ 
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+ 
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_spdifrx.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_spdifrx.c:34:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_usart.d" -MT"StdPeriph_Driver/src/stm32f4xx_usart.o" -o "StdPeriph_Driver/src/stm32f4xx_usart.o" "../StdPeriph_Driver/src/stm32f4xx_usart.c"
+Building file: ../StdPeriph_Driver/src/stm32f4xx_wwdg.c
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_spi.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_spi.c:159:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Invoking: MCU GCC Compiler
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_syscfg.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_syscfg.c:50:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_tim.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_tim.c:119:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"StdPeriph_Driver/src/stm32f4xx_wwdg.d" -MT"StdPeriph_Driver/src/stm32f4xx_wwdg.o" -o "StdPeriph_Driver/src/stm32f4xx_wwdg.o" "../StdPeriph_Driver/src/stm32f4xx_wwdg.c"
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_usart.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_usart.c:92:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc/stm32f4xx_wwdg.h:38:0,
+                 from ../StdPeriph_Driver/src/stm32f4xx_wwdg.c:84:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_spdifrx.c
+ 
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_syscfg.c
+ 
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_spi.c
+ 
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_tim.c
+ 
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_usart.c
+ 
+Finished building: ../StdPeriph_Driver/src/stm32f4xx_wwdg.c
+ 
+Building target: stm32_HelloWorld.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=rdimon.specs -lc -lrdimon -T"D:/New folder/RTOS_Mastering/stm32_HelloWorld/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "stm32_HelloWorld.elf" @"objects.list"   -lm
+Finished building target: stm32_HelloWorld.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "stm32_HelloWorld.elf" "stm32_HelloWorld.bin"
+arm-none-eabi-size "stm32_HelloWorld.elf"
+   text	   data	    bss	    dec	    hex	filename
+  18292	   2156	  78544	  98992	  182b0	stm32_HelloWorld.elf
+ 
+23:49:36 **** Incremental Build of configuration Debug for project stm32_HelloWorld ****
+make -j8 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+D:\New folder\RTOS_Mastering\stm32_HelloWorld\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/StdPeriph_Driver/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/Config" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/thirdParty/FreeRTOS/org/Source/include" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/inc" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device" -I"D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:12:0:
+D:/New folder/RTOS_Mastering/stm32_HelloWorld/CMSIS/device/stm32f4xx.h:108:0: warning: "STM32F40_41xxx" redefined
+   #define STM32F40_41xxx
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Finished building: ../src/main.c
+ 
+Building target: stm32_HelloWorld.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=rdimon.specs -lc -lrdimon -T"D:/New folder/RTOS_Mastering/stm32_HelloWorld/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "stm32_HelloWorld.elf" @"objects.list"   -lm
+Finished building target: stm32_HelloWorld.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "stm32_HelloWorld.elf" "stm32_HelloWorld.bin"
+arm-none-eabi-size "stm32_HelloWorld.elf"
+   text	   data	    bss	    dec	    hex	filename
+  19120	   2164	  78552	  99836	  185fc	stm32_HelloWorld.elf
+ 
