@@ -1,0 +1,131 @@
+/**
+  ******************************************************************************
+  * @file    main.c
+  * @author  Ac6
+  * @version V1.0
+  * @date    01-December-2013
+  * @brief   Default main function.
+  ******************************************************************************
+*/
+
+
+#include "stm32f4xx.h"
+#include "stdio.h"
+#include "stdint.h"
+
+#include "FreeRTOS.h"
+#include "task.h"
+
+
+TaskHandle_t xTaskHandle1=NULL;
+TaskHandle_t xTaskHandle2=NULL;
+
+
+void vTask1_handler(void *params);
+void vTask2_handler(void *params);
+
+
+#ifdef USE_SEMIHOSTING
+//used for semihosting
+extern void initialise_monitor_handles();
+#endif
+static void prvSetupHardware(void);
+static void prvSetupUART(void);
+
+int main(void)
+{
+#ifdef USE_SEMIHOSTING
+
+	initialise_monitor_handles();
+	printf("example code\n");
+#endif
+	//1. Reset the RCC clock configuration to default reset state
+	//hsi on, hse off, pll off, System clock = 16MHz
+	RCC_DeInit();
+
+	//2. Update the SystemCoreClock variable
+	SystemCoreClockUpdate();
+
+
+	//3. lets create 2 tasks , task-1 and task-2
+	xTaskCreate( vTask1_handler,"Task-1", configMINIMAL_STACK_SIZE,NULL,2,&xTaskHandle1 );
+
+	xTaskCreate( vTask2_handler,"Task-2", configMINIMAL_STACK_SIZE,NULL,2,&xTaskHandle2 );
+
+	//4. Start the scheduler.
+	vTaskStartScheduler();
+
+
+
+	for(;;);
+}
+
+
+void vTask1_handler(void *params)
+{
+	while(1)
+	{
+		printf("hello world from task-1\n");
+	}
+}
+
+void vTask2_handler(void *params)
+{
+	while(1)
+	{
+		printf("hello world from task-2\n");
+	}
+}
+
+/*static void prvSetupUART(void)
+{
+	GPIO_InitTypeDef gpio_uart_pins;
+	USART_InitTypeDef uart2_init;
+
+	//1. Enable peripheral clock
+	RCC_AHB1PeriphClockCmd(RCC_APB1Periph_USART2, ENABLE);
+	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA, ENABLE);
+
+
+	//2. Alternate function configuration of MCU pins to behave as UART2_TX AND RX
+	//PA2->UART2_TX, PA3->UART2_RX
+
+	//zeroing each and every member element of the structure
+	memset(&gpio_uart_pins, 0, sizeof(gpio_uart_pins));
+
+	gpio_uart_pins.GPIO_Pin =  GPIO_Pin_2 | GPIO_Pin_3;
+	gpio_uart_pins.GPIO_Mode = GPIO_Mode_AF;
+	gpio_uart_pins.GPIO_OType = GPIO_OType_PP;
+	gpio_uart_pins.GPIO_PuPd = GPIO_PuPd_UP;
+	gpio_uart_pins.GPIO_Speed = GPIO_High_Speed;
+	GPIO_Init(GPIOA, gpio_uart_pins);
+
+	//3. AF mode setting
+	GPIO_PinAFConfig(GPIOA, GPIO_PinSource2, GPIO_AF_USART2);
+	GPIO_PinAFConfig(GPIOA, GPIO_PinSource3, GPIO_AF_USART2);
+
+	//4. UART Param Init
+	 //zeroing each and every member element of the structure
+	memset(&uart2_init, 0, sizeof(uart2_init));
+
+	uart2_init.USART_BaudRate = 115200;
+	uart2_init.USART_HardwareFlowControl = USART_HardwareFlowControl_None;
+	uart2_init.USART_Mode = USART_Mode_Rx | USART_Mode_Tx;
+	uart2_init.USART_Parity = USART_Parity_No;
+	uart2_init.USART_StopBits = USART_StopBits_1;
+	uart2_init.USART_WordLength = USART_WordLength_8b;
+	USART_Init(USART2, uart2_init);
+
+	//5.enable UART2 periph
+	USART_Cmd(USART2, ENABLE);
+}*/
+
+static void prvSetupHardware(void)
+{
+
+}
+
+
+
+
+
